@@ -47,7 +47,7 @@ console.log(calcularPotencia(2, 3));
 console.log(calcularPotencia(5, 2));
 
 // 2.4 Escribe una función llamada `restar` que reciba dos parámetros y devuelva la diferencia entre ellos.
-function restar(a, b) {
+function restar (a, b) {
     return a - b;
 }
 const re1 = restar(10, 5);
