@@ -11,15 +11,15 @@ despedir();
 function multiplicarPorDos(numero) {
     return numero * 2;
 }
-const resultado = multiplicarPorDos(5);
-console.log(resultado); 
+const resultado1 = multiplicarPorDos(5);
+console.log(resultado1); 
 
 // 1.3 Crea una función llamada `esMayorDeEdad` que tome un número como parámetro y devuelva `true` si es mayor de 18, o `false` en caso contrario.
 function esMayorDeEdad(edad) {
     return edad > 18;
 }
 const resultado1 = esMayorDeEdad(20);
-console.log(resultado1); 
+console.log(resul1); 
 
 const resultado2 = esMayorDeEdad(16);
 console.log(resultado2); 
@@ -29,15 +29,15 @@ console.log(resultado2);
 function multiplicar(a, b) {
     return a * b;
 }
-const resultado = multiplicar(4, 5);
-console.log(resultado);
+const resul = multiplicar(4, 5);
+console.log(resul);
 
 // 2.2 Escribe una función llamada `saludarPersonalizado` que reciba dos parámetros: `nombre` y `apellido`. La función debe devolver "Hola, [nombre] [apellido]".
 function saludarPersonalizado(nombre, apellido) {
     return `Hola, ${nombre} ${apellido}`;
 }
-const saludo = saludarPersonalizado("Tamara", "Pereira");
-console.log(saludo); 
+const saludar1 = saludarPersonalizado("Tamara", "Pereira");
+console.log(saludar1); 
 
 // 2.3 Crea una función llamada `calcularPotencia` que reciba dos parámetros: base y exponente. La función debe devolver el resultado de elevar la base al exponente.
 function calcularPotencia(base, exponente) {
@@ -50,8 +50,8 @@ console.log(calcularPotencia(5, 2));
 function restar(a, b) {
     return a - b;
 }
-const resultado = restar(10, 5);
-console.log(resultado); 
+const re1 = restar(10, 5);
+console.log(re1); 
 
 // 2.5 Crea una función llamada `dividir` que reciba dos parámetros y devuelva el resultado de la división del primer parámetro por el segundo.
 function dividir(a, b) {
@@ -60,8 +60,8 @@ function dividir(a, b) {
     }
     return a / b;
 }
-const resultado = dividir(10, 2);
-console.log(resultado); 
+const resulta = dividir(10, 2);
+console.log(resulta); 
 
 const resultadoError = dividir(10, 0);
 console.log(resultadoError);
@@ -71,15 +71,15 @@ console.log(resultadoError);
     const multiplicarDOS = function(a, b) {
     return a * b;
 };
-const resultado = multiplicarDOS(4, 5);
-console.log(resultado); 
+const efecto = multiplicarDOS(4, 5);
+console.log(efecto); 
 
 // 3.2 Escribe una **function expression** llamada `saludar` que acepte un parámetro `nombre` y devuelva "Hola, [nombre]".
 const saludar = function(nombre) {
     return `Hola, ${nombre}`;
 };
-const saludo = saludar("Tamara");
-console.log(saludo); 
+const salu = saludar("Tamara");
+console.log(salu); 
 
 // 3.3 Crea una **function expression** llamada `esPar` que acepte un número como parámetro y devuelva `true` si el número es par, o `false` en caso contrario.
 const esPar = function(numero) {
