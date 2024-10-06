@@ -99,8 +99,8 @@ console.log(resultado);
 
 // 4.2 Crea una función flecha llamada `saludarFlecha` que reciba un parámetro `nombre` y devuelva "Hola [nombre]".
 const saludarFlecha = (nombre) => `Hola ${nombre}`;
-const saludo = saludarFlecha("Tamara");
-console.log(saludo);
+const Saludos = saludarFlecha("Tamara");
+console.log(Saludos);
 
 // 4.3 Escribe una función flecha llamada `calcularArea` que reciba el radio de un círculo y devuelva el área del círculo. Usa la fórmula A = π * r².
 const calcularArea = radio =>  Math.PI * radio ** 2;
