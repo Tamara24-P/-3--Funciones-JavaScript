@@ -18,11 +18,11 @@ console.log(resultado1);
 function esMayorDeEdad(edad) {
     return edad > 18;
 }
-const resultado1 = esMayorDeEdad(20);
-console.log(resul1); 
+const respuesta = esMayorDeEdad(20);
+console.log(respuesta); 
 
-const resultado2 = esMayorDeEdad(16);
-console.log(resultado2); 
+const respuesta2 = esMayorDeEdad(16);
+console.log(respuesta2); 
 
 // 2. Parámetros
 // 2.1 Crea una función llamada `multiplicar` que reciba dos parámetros, los multiplique y devuelva el resultado.
